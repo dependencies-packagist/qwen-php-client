@@ -1,0 +1,81 @@
+{
+    "name": "qwen/qwen-php-client",
+    "description": "Community-Driven PHP SDK for Qwen AI API Integration.",
+    "keywords": [
+        "qwen",
+        "qwen-php-sdk",
+        "qwen-sdk",
+        "qwen-api",
+        "php-qwen",
+        "alibaba-ai",
+        "alibaba",
+        "alibaba-api",
+        "alibaba-cloud",
+        "qwen-coder",
+        "qwen-integration",
+        "openai",
+        "deepseek",
+        "deepseek-php",
+        "sdk",
+        "codex",
+        "GPT-3",
+        "DALL-E",
+        "api",
+        "client",
+        "php-sdk",
+        "php-ai",
+        "ai-for-php",
+        "ai-sdk",
+        "ai-api",
+        "natural",
+        "language",
+        "processing",
+        "qwen-php-library",
+        "qwen-client",
+        "natural-language-processing",
+        "ai-integration",
+        "machine-learning",
+        "php-machine-learning",
+        "php-iot",
+        "nlp",
+        "data-processing",
+        "deep-learning",
+        "qwen-library",
+        "php-library",
+        "api-integration",
+        "php-api-client",
+        "qwen-ai",
+        "php-openai-alternative",
+        "ai-client-library"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/dependencies-packagist/qwen-php-client",
+    "authors": [
+        {
+            "name": "jundayw",
+            "email": "jundayw@126.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1.0",
+        "php-http/discovery": "^1.20.0",
+        "php-http/multipart-stream-builder": "^1.4.2",
+        "psr/http-client": "^1.0.3",
+        "psr/http-client-implementation": "^1.0.1",
+        "psr/http-factory-implementation": "*",
+        "psr/http-message": "^1.1.0|^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qwen\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

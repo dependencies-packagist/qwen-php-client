@@ -1,0 +1,3 @@
+[submodule "qwen"]
+	path = qwen
+	url = git@github.com:qwen-php/qwen-php-client.git
